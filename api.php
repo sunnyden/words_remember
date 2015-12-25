@@ -10,7 +10,7 @@ Bug report :admin@denghaoqing.com
 //parse_str($_SERVER["QUERY_STRING"]);
 //echo "$type";
 
-$type=$_GET['type'];
+$type=$_POST['type'];
 $word=$_POST['word'];
 $explan=$_POST['explan'];
 $timestamp=$_POST['timestamp'];
