@@ -1,0 +1,12 @@
+单词学习助手储存处理单词的API
+
+
+数据库的结构
+字段	类型	空	默认	注释
+id	int(11)	否 	 	 
+words	text	否 	 	 
+chn	text	否 	 	 
+time_create	datetime	否 	 	 
+time_read	datetime	否 	 	 
+count_right	int(11)	否 	 	 
+count_total	int(11)	否 	 	 
